@@ -1,0 +1,179 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;  /* Lighter background for a clean, YouTube-like look */
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container for the content */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;  /* Bold header text */
+}
+
+/* Form and labels */
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* Select dropdown and text inputs */
+select, input[type="text"], input[type="file"], input[type="button"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f1f1f1;  /* Light gray background for input fields */
+}
+
+/* Button styling */
+input[type="button"] {
+  background-color: #ff3b30;  /* YouTube-like red */
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #cc2f25;  /* Darker red on hover */
+}
+
+/* Select dropdown and file input styles */
+select, input[type="file"] {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Centered content after selecting a department */
+#verificationOptions {
+  display: none;
+  padding: 20px;
+  text-align: center;
+  border: 2px dashed #007bff;
+  margin-top: 20px;
+}
+
+/* Styling for error messages */
+.alert {
+  color: #d9534f;  /* Red error messages */
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* YouTube-like container */
+.container {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a black box for certificate verification */
+#certificateVerificationBox {
+  background-color: #333; /* Black background */
+  color: white; /* White text */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#certificateVerificationBox h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+#certificateVerificationBox .verification-text {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="button"] {
+    padding: 10px;
+  }
+
+  /* Making select and inputs more compact for mobile view */
+  select, input[type="text"], input[type="file"], input[type="button"] {
+    font-size: 0.9rem;
+  }
+}
+
+/* YouTube-style top bar (if you want to add one) */
+.navbar {
+  background-color: #f8f8f8;  /* Light gray for top bar */
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+}
+
+.navbar a:hover {
+  background-color: #e1e1e1;
+  border-radius: 4px;
+}
+
+.certificate-verification-heading {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+}
