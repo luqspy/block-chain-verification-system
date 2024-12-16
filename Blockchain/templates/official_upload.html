@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Certificate Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="certificate-upload-heading">Official Certificate Upload</h1>
+        <form action="/add_certificate" method="POST" enctype="multipart/form-data">
+            <div class="form-section">
+                <label for="certificate_id">Certificate ID:</label>
+                <input type="text" id="certificate_id" name="certificate_id" required><br><br>
+            </div>
+
+            <div class="form-section">
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" required><br><br>
+            </div>
+
+            <div class="form-section">
+                <label for="issuer">Issuer:</label>
+                <input type="text" id="issuer" name="issuer" required><br><br>
+            </div>
+
+            <div class="form-section">
+                <label for="pdf_file">Upload Certificate (PDF):</label>
+                <input type="file" id="pdf_file" name="pdf_file" accept="application/pdf" required><br><br>
+            </div>
+
+            <div class="form-section">
+                <button type="submit">Upload Certificate</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
