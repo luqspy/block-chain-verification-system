@@ -63,7 +63,8 @@ eg. cd C:\user\username\Documents\Programs\Blockchain verification system
 
 # Posting Through Postman:
 
-1.)	 POST /add_certificate (for uploading certificates):
+*1.)	 POST /add_certificate (for uploading certificates):*
+
 
 **Headers:**
 
@@ -73,7 +74,8 @@ Role: government
 
 certificate_id, department, issuer, pdf_file
 
-2.)	POST /verify_certificate (for verifying certificates):
+*2.)	POST /verify_certificate (for verifying certificates):*
+
 
 **Form data:**
 
